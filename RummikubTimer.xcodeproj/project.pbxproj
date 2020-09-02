@@ -13,6 +13,7 @@
 		F35348BE24FFB79300B6E78C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35348BC24FFB79300B6E78C /* Main.storyboard */; };
 		F35348C024FFB79700B6E78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35348BF24FFB79700B6E78C /* Assets.xcassets */; };
 		F35348C324FFB79700B6E78C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35348C124FFB79700B6E78C /* LaunchScreen.storyboard */; };
+		F35348CE24FFD53200B6E78C /* TimesUpSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35348CD24FFD53200B6E78C /* TimesUpSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F35348BF24FFB79700B6E78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F35348C224FFB79700B6E78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F35348C424FFB79700B6E78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35348CD24FFD53200B6E78C /* TimesUpSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TimesUpSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,37 @@
 				F35348B624FFB79300B6E78C /* AppDelegate.swift */,
 				F35348B824FFB79300B6E78C /* SceneDelegate.swift */,
 				F35348BA24FFB79300B6E78C /* ViewController.swift */,
-				F35348BC24FFB79300B6E78C /* Main.storyboard */,
+				F35348CB24FFC14200B6E78C /* C */,
+				F35348CA24FFB7E700B6E78C /* V */,
 				F35348BF24FFB79700B6E78C /* Assets.xcassets */,
 				F35348C124FFB79700B6E78C /* LaunchScreen.storyboard */,
 				F35348C424FFB79700B6E78C /* Info.plist */,
+				F35348CC24FFD51A00B6E78C /* Sounds */,
 			);
 			path = RummikubTimer;
+			sourceTree = "<group>";
+		};
+		F35348CA24FFB7E700B6E78C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				F35348BC24FFB79300B6E78C /* Main.storyboard */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		F35348CB24FFC14200B6E78C /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		F35348CC24FFD51A00B6E78C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F35348CD24FFD53200B6E78C /* TimesUpSound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +154,7 @@
 			files = (
 				F35348C324FFB79700B6E78C /* LaunchScreen.storyboard in Resources */,
 				F35348C024FFB79700B6E78C /* Assets.xcassets in Resources */,
+				F35348CE24FFD53200B6E78C /* TimesUpSound.mp3 in Resources */,
 				F35348BE24FFB79300B6E78C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
